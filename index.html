@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Canvas</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="./img/logo.png" alt="logo" class="logo">
+    </div>
+
+    <div class="post-header">
+    
+    <div class="selectsec">
+    <label for="language" class="text_lang">Language:</label> 
+    <select name="language" id="language">         
+        <option value="c_c++">C Language</option> 
+        <option value="c_c++">C++</option> 
+        <option value="python">Python</option> 
+        <option value="js">Javascript</option> 
+    </select>
+    </div>
+
+    <button class="run" id="run">Run</button>
+
+    </div>
+
+
+    <div class="editor" id="editor"></div>
+
+    <div class="input-output">
+
+    <div class="input-section">
+    <h3 class="input-header">Input</h3>
+    <div contentEditable="true" name="input" id="input"></div>
+    </div>
+
+    <div class="output-section">
+    <h3 class="output-header" >Output</h3>
+    <div class="code_output" id="code_output"></div>
+    </div>
+
+    </div>
+
+    <footer>Code-Canvas made by ~astroidworld (Akash) ❤ &copy; 2023</footer>
+
+    <script src="scripts/library/ace.js"></script>
+    <script src="Scripts/library/theme-textmate.js"></script>    
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="scripts/script.js"></script>
+
+
+</body>
+
+</html>
